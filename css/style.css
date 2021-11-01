@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding: 12px;
+    text-align: center;
+}
+
+.header {
+    float: center;
+}
+
+.header a {
+    color: rgb(245, 141, 23);
+    padding: 1em;
+    text-decoration: none;
+    font-size: .66em;
+}
+
+.header a:hover {
+    color: rgb(17, 90, 224);
+}
+
+.title {
+    color: rgb(17, 90, 224);
+    font-size: 1.7em;
+}
+
+.title h2 {
+    font-size: 1em;
+}
+
+.about h3 {
+    text-align: left;
+}
+
