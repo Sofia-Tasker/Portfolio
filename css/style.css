@@ -5,8 +5,15 @@ body {
     text-align: center;
 }
 
+.logo {
+    color: rgb(17, 90, 224);
+    font-size: 1.7em;
+    display:inline-block;
+}
+
 .header {
     float: center;
+    display:inline-block;
 }
 
 .header a {
@@ -29,7 +36,27 @@ body {
     font-size: 1em;
 }
 
-.about h3 {
+h3 {
     text-align: left;
+}
+
+.about p {
+    text-align: center;
+}
+
+.resume p {
+    text-align: center;
+}
+
+.resume .resumeWorkExperience h4 {
+    text-align: left;
+}
+
+.resume .resumeWorkExperience p {
+    text-align: left;
+}
+
+.item h3 {
+    text-align: center;
 }
 
