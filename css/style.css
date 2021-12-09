@@ -18,6 +18,7 @@ p {
 a {
     text-decoration: none;
     color: rgb(17, 90, 224);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .responsive {
