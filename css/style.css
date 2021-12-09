@@ -147,3 +147,15 @@ h3 {
 .Syzo img{
     max-width: 7rem;
 }
+
+/* UX UI End---------------------------------------------- */
+
+/* Extra ------------------------------------------------- */
+
+figcaption{
+    color: rgb(245, 141, 23);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+/* Extra End---------------------------------------------- */
