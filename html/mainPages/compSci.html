@@ -15,59 +15,116 @@
     <link rel="stylesheet" href="../../css/style.css" />
 </head>
 <body>
-    <div class="logo">
-        <h3>
-            SCT
-        </h3>
-    </div>
-    <div class="header">
-        <a href="aboutMe.html">about me</a>
-        <a href="compSci.html">computer science</a>
-        <a href="uxuiDev.html">ux/ui development</a>
-        <a href="extra.html">extra</a>
+    <button class="menu">
+        <a href="#navigateHere">menu</a>
+    </button>
+    <div class="title" id="header">
+        <h1>
+            SOFIA C. TASKER
+        </h1>
+        <h2>
+            UX/UI Developer & Designer
+        </h2>
     </div>
     <div class="item">
-        <div id="Lynx">
-            <h3>
-                Lynx
-            </h3>
-            <p>
-                An iOS and Android app for digital business cards that allow users to share personal information using QR codes and relational databases to keep the information up to date. We called it Lynx.
-            </p>
+        <div class="Lynx">
+            <a href="../subPages/lynx.html">
+                <h3>
+                    Lynx
+                </h3>
+                <img
+                    src="../../images/lynx/CoverLynx.png"
+                    alt="Lynx Cover Image"
+                    class="responsive"
+                />
+                <p>
+                    An iOS and Android app for digital business cards that allow users to share 
+                    personal information using QR codes and relational databases to keep the 
+                    information up to date. We called it Lynx.
+                </p>
+            </a>
         </div>
-        <div id="Class Connect">
-            <h3>
-                Class Connect
-            </h3>
-            <p>
-                Designed a learning interface for students ages 7-10 to use during COVID-19. This is targeted towards online learning and working from home.
-            </p>
+        <div class="Class Connect">
+            <a href="../subPages/classConnect.html">
+                <h3>
+                    Class Connect
+                </h3>
+                <img
+                    src="../../images/classConnect/CoverClassConnect.jpeg"
+                    alt="Class Connect Cover Image"
+                    class="responsive"
+                />
+                <p>
+                    Designed a learning interface for students ages 7-10 to use during COVID-19. 
+                    This is targeted towards online learning and working from home.
+                </p>
+            </a>
         </div>
-        <div id="Google Colab">
-            <h3>
-                Google Colabratory
-            </h3>
-            <p>
-                Created a plateform for sales representatives at Sapient Industries Inc. to use when querying data. This helped the process be more efficient and consise as the sales personelle could now directly make their own questions and calls to data.
-            </p>
+        <div class="Google Colab">
+            <a href="../subPages/googleColab.html">
+                <h3>
+                    Google Colabratory
+                </h3>
+                <img
+                    src="../../images/colab/CoverColab.jpeg"
+                    alt="Colab Cover Image"
+                    class="responsive"
+                />
+                <p>
+                    Created a plateform for sales representatives at Sapient Industries Inc. 
+                    to use when querying data. This helped the process be more efficient 
+                    and consise as the sales personelle could now directly make their own 
+                    questions and calls to data.
+                </p>
+            </a>
         </div>
-        <div id="Data Visualization">
-            <h3>
-                Data Visualization
-            </h3>
-            <p>
-                Working in Pandas, me and a co-worker developed a dashboard of visualizations. These graphs and images showed the progress of companies efficiency's as well as a visualization of when certain sockets had similar patterns that could be optimized for maximum savings.
-            </p>
+        <div class="Data Visualization">
+            <a href="../subPages/dataVisulization.html">
+                <h3>
+                    Data Visualization
+                </h3>
+                <img
+                    src="../../images/dataVis/CoverDataVis.png"
+                    alt="Data Visualization Cover Image"
+                    class="responsive"
+                />
+                <p>
+                    Working with python's panda library, a co-worker and I developed a dashboard 
+                    of visualizations. These graphs and images showed the progress of companies 
+                    efficiency's as well as a visualization of when certain sockets had similar 
+                    patterns that could be optimized for maximum savings.
+                </p>
+            </a>
         </div>
-        <div id="The Big">
-            <h3>
-                The Big Project Idea
-            </h3>
-            <p>
-                Still in the works...
-            </p>
+        <div class="emoney">
+            <a href="../subPages/incentiveEngagement.html">
+                <h3>
+                    Incentive Engagement
+                </h3>
+                <img
+                    src="../../images/emoney/coverIncentive.png"
+                    alt="Lynx Cover Image"
+                    class="responsive"
+                />
+                <p>
+                    Incentive Engagement is a microservice that implements a gamification system 
+                    for the Incentive app. It will allow users earn points for tasks such as 
+                    completing challenges, reading articles, or linking bank accounts. Users can 
+                    then redeem points to earn prizes like gift cards, and will be able to compete 
+                    with others in the global leaderboards. This microservice further encourages 
+                    users to engage with the app through daily streaks and quizzes that only 
+                    appear for a limited amount of time.
+                </p>
+            </a>
         </div>
     </div>
-    
+    <nav id ="navigateHere">
+        <ul>
+            <li><a href="aboutMe.html">about me</a></li>
+            <li><a href="compSci.html" class="active">computer science</a></li>
+            <li><a href="uxuiDev.html">ux/ui development</a></li>
+            <li><a href="extra.html">extra</a></li>
+        </ul>
+    </nav>
 </body>
 </html>

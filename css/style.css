@@ -12,7 +12,18 @@ p {
     font-variant: normal;
     line-height: 1.1rem;
     margin: .5rem;
+    color: rgb(0,0,0);
 }
+
+a {
+    text-decoration: none;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 30rem;
+    height: auto;
+  }
 
 /* Navigation Menu --------------------------------------- */
 .menu {
@@ -26,6 +37,7 @@ p {
 .menu a{
     color:rgb(255, 255, 255);
     font-size: 1rem;
+    text-decoration: none;
 }
 
 nav {
@@ -123,7 +135,9 @@ h3 {
 
 /* Resume End--------------------------------------------- */
 
+/* Computer Science -------------------------------------- */
 .item h3 {
     text-align: center;
 }
 
+/* Computer Science End----------------------------------- */
