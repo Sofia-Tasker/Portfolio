@@ -15,44 +15,76 @@
     <link rel="stylesheet" href="../../css/style.css" />
 </head>
 <body>
-    <div class="navBar">
-        <div class="logo">
-            <h3>
-                SCT
-            </h3>
-        </div>
-        <div class="header">
-            <a href="aboutMe.html">about me</a>
-            <a href="compSci.html">computer science</a>
-            <a href="uxuiDev.html">ux/ui development</a>
-            <a href="extra.html">extra</a>
-        </div>
+    <button class="menu">
+        <a href="#navigateHere">menu</a>
+    </button>
+    <div class="title" id="header">
+        <h1>
+            SOFIA C. TASKER
+        </h1>
+        <h2>
+            UX/UI Developer & Designer
+        </h2>
     </div>
     <div class="item">
-        <div id="B&N">
-            <h3>
-            Barnes & Noble 
-            </h3>
-            <p>
-                For one of my first UX/UI design courses, we were asked to redesign an already existing site. I chose Barnes & Noble.
-            </p>
+        <div class="B&N">
+            <a href="../subPages/barnesNoble.html">
+                <h3>
+                Barnes & Noble 
+                </h3>
+                <img
+                    src="../../images/barnesNoble/coverBarnesNoble.png"
+                    alt="B&N Cover Image"
+                    class="responsive"
+                />
+                <p>
+                    For one of my first UX/UI design courses, we were asked to redesign 
+                    an already existing site. I chose Barnes & Noble.
+                </p>
+            </a>
         </div>
-        <div id="Guardian">
-            <h3>
-            The Guardian
-            </h3>
-            <p>
-                This is a full redesign of the Guardian. While it strays from the Guardians original and classic look, it takes on more of a editorial approach.
-            </p>
+        <div class="Guardian">
+            <a href="../subPages/guardian.html">
+                <h3>
+                The Guardian
+                </h3>
+                <img
+                    src="../../images/guardian/coverGuardian.png"
+                    alt="Guardian Cover Image"
+                    class="responsive"
+                />
+                <p>
+                    This is a full redesign of the Guardian. While it strays from the 
+                    Guardians original and classic look, it takes on more of a 
+                    editorial approach.
+                </p>
+            </a>
         </div>
-        <div id="Syzo">
-            <h3>
-            Syzokryli Dance Ensemble
-            </h3>
-            <p>
-                I developed this website using Wix. Using my own custom designs and ideas, this website is a redesign and update of the old Syzokyli website.
-            </p>
+        <div class="Syzo">
+            <a href="../subPages/syzokryli.html">
+                <h3>
+                Syzokryli Dance Ensemble
+                </h3>
+                <img
+                    src="../../images/syzo/syzoLogo.png"
+                    alt="Syzokryli Cover Image"
+                    class="responsive"
+                />
+                <p>
+                    I developed this website using Wix. Using my own custom designs 
+                    and ideas, this website is a redesign and update of the old 
+                    Syzokyli website.
+                </p>
+            </a>
         </div>
     </div>
+    <nav id ="navigateHere">
+        <ul>
+            <li><a href="aboutMe.html" class="active">about me</a></li>
+            <li><a href="compSci.html">computer science</a></li>
+            <li><a href="uxuiDev.html">ux/ui development</a></li>
+            <li><a href="extra.html">extra</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
