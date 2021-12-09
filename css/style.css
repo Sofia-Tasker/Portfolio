@@ -5,43 +5,97 @@ body {
     text-align: center;
 }
 
-.logo {
-    color: rgb(17, 90, 224);
-    font-size: 1.7em;
-    display:inline-block;
+p {
+    font-family: 'Arial', Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1.1rem;
+    margin: .5rem;
 }
 
-.header {
-    float: center;
-    display:inline-block;
+/* Navigation Menu --------------------------------------- */
+.menu {
+    background-color: rgb(245, 141, 23);
+    border-color:transparent;
+    float: right;
+    border-radius: 1rem;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.header a {
+.menu a{
+    color:rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+nav {
+    text-align: center;
+}
+  
+nav ul {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    margin: 40rem 0rem;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: .17rem 0rem;
+}
+
+nav ul li a {
     color: rgb(245, 141, 23);
-    padding: 1em;
+    font-size: 1rem;
+    font-weight: normal;
     text-decoration: none;
-    font-size: .66em;
 }
 
-.header a:hover {
+nav ul li a:hover, nav ul li a.active {
     color: rgb(17, 90, 224);
 }
 
+/* Navigation Menu End------------------------------------ */
+
+/* Header ------------------------------------------------ */
 .title {
     color: rgb(17, 90, 224);
-    font-size: 1.7em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title h1 {
+    font-size: 2rem;
+    padding-top: 2rem;
+    margin: 0rem;
+    font-weight: bolder;
 }
 
 .title h2 {
-    font-size: 1em;
+    font-size: 1.2rem;
+    margin: 0rem;
+    padding: 0rem;
+    font-weight: normal;
 }
 
+/* Header End--------------------------------------------- */
+
+/* Resume ------------------------------------------------ */
+
 h3 {
-    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(245, 141, 23);
+    font-size: 1rem;
 }
 
 .about p {
-    text-align: center;
+    text-align: left;
+    line-height: 1.2rem;
 }
 
 .resume p {
@@ -50,11 +104,24 @@ h3 {
 
 .resume .resumeWorkExperience h4 {
     text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: .85rem;
+    color: rgb(17, 90, 224);
+    margin: 0;
 }
 
-.resume .resumeWorkExperience p {
+.resume .resumeWorkExperience p, ul {
     text-align: left;
+    font-family: 'Arial', Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1.1rem;
+    margin: .5rem;
 }
+
+/* Resume End--------------------------------------------- */
 
 .item h3 {
     text-align: center;
