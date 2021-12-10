@@ -138,7 +138,8 @@ h3 {
 /* Resume End--------------------------------------------- */
 
 /* Computer Science -------------------------------------- */
-.item h3 {
+
+.item h4 {
     text-align: center;
 }
 
@@ -155,9 +156,9 @@ h3 {
 /* Extra ------------------------------------------------- */
 
 figcaption{
-    color: rgb(245, 141, 23);
+    color: rgb(17, 90, 224);
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /* Extra End---------------------------------------------- */
